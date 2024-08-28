@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "FreshMarks it!",
+  "version": "1.0",
+  "description": "A simple bookmark updater",
+  "icons": {
+    "19": "icons/star-filled-19.png",
+    "38": "icons/star-filled-38.png",    
+    "48": "icons/star-filled-48.png",
+    "96": "icons/star-filled-96.png"
+  },
+  "permissions": [
+    "webRequest",
+    "bookmarks",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_icon": "icons/star-empty-38.png",
+    "default_title": "FreshMarks it!"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
