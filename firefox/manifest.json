@@ -17,7 +17,8 @@
   ],
   "browser_action": {
     "default_icon": "icons/star-empty-38.png",
-    "default_title": "FreshMarks it!"
+    "default_title": "FreshMarks it!",
+    "default_popup": "popup.html"
   },
   "background": {
     "scripts": [

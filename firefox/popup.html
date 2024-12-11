@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FreshMarks</title>
+	<style type="text/css">
+		.bookmarkForm{
+			display: flex;
+			flex-direction: column;
+			width:300px;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<form method="POST" id="bookmarkForm" class="bookmarkForm">
+		<label for="title">
+			Enter the title:
+		</label>
+		<input id="title" type="text" />
+		<label for="url">
+			Enter the url:
+		</label>
+		<input id="url" type="url" />
+		<label id="error">Status: idle</label>
+		<button type="submit">Add Bookmark</button>
+	</form>
+	<script src="popup.js"></script>
+</body>
+</html>
