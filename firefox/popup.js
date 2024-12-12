@@ -9,7 +9,8 @@ document.getElementById('bookmarkForm').addEventListener('submit', function(even
 
     // Check if both title and URL are provided
     if (title && url) {
-        // Use the Chrome bookmarks API to add the bookmark
+		error.innerText = "Status: Adding Bookmark";
+        // Use the Firefox bookmarks API to add the bookmark
         browser.bookmarks.create({
             title: title,
             url: url
