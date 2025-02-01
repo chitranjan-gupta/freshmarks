@@ -23,10 +23,15 @@ If the page redirects, the bookmark will be updated with the new URL.
 This extension uses a non-blocking webRequest listener and cannot modify request headers.
 
 ## Version
-1.0
+1.0.0
 
 ## License
 MIT License
 
 ## Author
 Chitranjan Gupta
+
+## Download
+You can download the zip files for the Chrome and Firefox extensions from the following links:
+- [Chrome Extension](chrome_extension.zip)
+- [Firefox Extension](firefox_extension.zip)

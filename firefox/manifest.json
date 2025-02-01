@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "FreshMarks it!",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "A simple bookmark updater",
   "icons": {
     "19": "icons/star-filled-19.png",
