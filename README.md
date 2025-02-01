@@ -33,5 +33,5 @@ Chitranjan Gupta
 
 ## Download
 You can download the zip files for the Chrome and Firefox extensions from the following links:
-- [Chrome Extension](chrome_extension.zip)
-- [Firefox Extension](firefox_extension.zip)
+- [Chrome Extension](https://github.com/chitranjan-gupta/freshmarks/releases/latest/download/chrome_extension.zip)
+- [Firefox Extension](https://github.com/chitranjan-gupta/freshmarks/releases/latest/download/firefox_extension.zip)
