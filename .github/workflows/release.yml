@@ -65,14 +65,3 @@ jobs:
           asset_path: dist/firefox_extension.zip
           asset_name: firefox_extension.zip
           asset_content_type: application/zip
-
-      - name: Update README.md
-        run: |
-          latest_release_url="https://github.com/${{ github.repository }}/releases/latest/download"
-          sed -i "s|https://github.com/.*/releases/download/.*/chrome_extension.zip|${latest_release_url}/chrome_extension.zip|g" README.md
-          sed -i "s|https://github.com/.*/releases/download/.*/firefox_extension.zip|${latest_release_url}/firefox_extension.zip|g" README.md
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m "Update download links in README.md"
-          git push
