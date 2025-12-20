@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "FreshMarks it!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple bookmark updater",
   "icons": {
     "19": "icons/star-filled-19.png",
@@ -11,8 +11,7 @@
   },
   "permissions": [
     "webRequest",
-    "bookmarks",
-    "tabs"
+    "bookmarks"
   ],
   "host_permissions": [
     "*://*/*"

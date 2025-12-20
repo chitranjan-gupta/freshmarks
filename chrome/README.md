@@ -28,7 +28,7 @@ If the page redirects, the bookmark will be updated with the new URL.
 This extension uses a non-blocking webRequest listener and cannot modify request headers.
 
 ## Version
-1.0
+1.0.1
 
 ## License
 MIT License

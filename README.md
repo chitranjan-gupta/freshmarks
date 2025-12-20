@@ -1,4 +1,4 @@
-# FreshMarks
+# FreshMarks It
 
 ### A Chrome and Firefox extension that updates bookmarks with redirected URLs.
 
@@ -23,13 +23,18 @@ If the page redirects, the bookmark will be updated with the new URL.
 This extension uses a non-blocking webRequest listener and cannot modify request headers.
 
 ## Version
-1.0.0
+1.0.1
 
 ## License
 MIT License
 
 ## Author
 Chitranjan Gupta
+
+## WebStore
+- [Chrome Extension](https://chromewebstore.google.com/detail/freshmarks-it/kkpkpegedjgbkljpfcnjbpfkdipalfma)
+- [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/freshmarks-it/)
+- [Edge Extension](https://microsoftedge.microsoft.com/addons/detail/freshmarks-it/ffmcidhkdkneebilleobjedhjdodlpea)
 
 ## Download
 You can download the zip files for the Chrome and Firefox extensions from the following links:
